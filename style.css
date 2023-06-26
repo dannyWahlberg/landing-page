@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin:0;
+}
+
+.main-container {
+
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.section{
+    flex:1;
+}
+
+.first{
+
+    
+ 
+    background-color: #1f2937   ;
+}
+
+.third {
+
+    background-color: #e5e7eb;
+}
