@@ -15,12 +15,69 @@ html, body {
 }
 
 .first{
-
     
- 
     background-color: #1f2937   ;
 }
 
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5px 0 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li{
+    display:inline-block;
+    margin-right:10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding:5px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-container{
+    display:flex;
+    margin:50px
+}
+.header-info{
+    flex:1;
+    margin:5px;
+}
+.image-holder{
+    display:flex;
+    flex:1;
+    border:2px solid grey;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin:0;
+}
+
+.header-container > .awesome > p  {
+    color: red;
+}
 .third {
 
     background-color: #e5e7eb;
